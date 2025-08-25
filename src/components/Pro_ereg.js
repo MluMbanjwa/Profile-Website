@@ -2,8 +2,8 @@ import { style_courasel } from "../contents";
 
 function Ereg() {
   return (
-    <div className="paragraph" style={{style_courasel,width:"800px"}}>
-      <div className="paragraph" style={{ width: "100%" }}><p className="paragraph">
+    <div className="paragraph" style={{style_courasel,width:"800px",display:"flex",flexDirection:"column",alignItems:"center",alignContent:"center"}}>
+      <div  style={{ width: "95%" ,padding:"10px"}}><p  style={{fontSize:"medium"}}>
         an electronic registration system that creates an attendance register by scanning your 
         personal QR code in a web cam, making attendance tracking seamless and efficient.
         </p></div>

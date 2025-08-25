@@ -8,6 +8,8 @@ import gitHubLogo from "./Assets/pictures/contact/github.png";
 import linkedInLogo from "./Assets/pictures/contact/linkedin.png";
 import cellLogo from"./Assets/pictures/contact/phone.png";
 import emailLogo from "./Assets/pictures/contact/email.png";
+import background1 from "./Assets/pictures/background/1.jpg";
+import background2 from "./Assets/pictures/background/2.jpg";
 import locationLogo from "./Assets/pictures/contact/address.png";
 
 var courseName={"Unisa":"BSC:\nCOMPUTER SCIENCES AND MATHEMATICS",
@@ -77,8 +79,6 @@ const contacts={
     "mlumbanjwacpp\n@gmail.com":emailLogo,
     "Gauteng & KZN":locationLogo,
 }
-var background={
-  "1":"url(./Assets/pictures/background/1.jpg)",
-  "2":"url(./Assets/pictures/background/2.jpg)"
-}
+
+const background={"1":background1,"2":background2};
 export {courseName,universities,universityCompletion,paragraphs,langueges,contactlinks,contacts,background,style_header,projects,style_courasel}
