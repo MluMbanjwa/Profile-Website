@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Profile-Website/static/css/main.f468b0f5.css",
-    "main.js": "/Profile-Website/static/js/main.1776bea0.js",
-    "static/media/2.jpg": "/Profile-Website/static/media/2.16d27e3fd2993d0e7b95.jpg",
-    "static/media/python.gif": "/Profile-Website/static/media/python.efa2642a0156a7295059.gif",
-    "static/media/react.gif": "/Profile-Website/static/media/react.117edd8f5021f7c86abc.gif",
-    "static/media/all.png": "/Profile-Website/static/media/all.a98d4f7f883a9e72c67e.png",
-    "static/media/github.png": "/Profile-Website/static/media/github.c7c9559467e69025eeee.png",
-    "static/media/js.gif": "/Profile-Website/static/media/js.cedf282f8ce5eed0e918.gif",
-    "static/media/unisa.png": "/Profile-Website/static/media/unisa.368dc5f814a7b53ecd6b.png",
-    "static/media/address.png": "/Profile-Website/static/media/address.60741c050446bc89f909.png",
-    "static/media/c++.gif": "/Profile-Website/static/media/c++.de6f53bed33f5c9a1f5b.gif",
-    "static/media/UNIZULU.png": "/Profile-Website/static/media/UNIZULU.4407f5ee31eb901105cd.png",
-    "index.html": "/Profile-Website/index.html",
-    "main.f468b0f5.css.map": "/Profile-Website/static/css/main.f468b0f5.css.map",
-    "main.1776bea0.js.map": "/Profile-Website/static/js/main.1776bea0.js.map"
+    "main.css": "/static/css/main.a0b42754.css",
+    "main.js": "/static/js/main.443360e7.js",
+    "static/media/2.jpg": "/static/media/2.16d27e3fd2993d0e7b95.jpg",
+    "static/media/python.gif": "/static/media/python.efa2642a0156a7295059.gif",
+    "static/media/react.gif": "/static/media/react.117edd8f5021f7c86abc.gif",
+    "static/media/all.png": "/static/media/all.a98d4f7f883a9e72c67e.png",
+    "static/media/github.png": "/static/media/github.c7c9559467e69025eeee.png",
+    "static/media/js.gif": "/static/media/js.cedf282f8ce5eed0e918.gif",
+    "static/media/unisa.png": "/static/media/unisa.368dc5f814a7b53ecd6b.png",
+    "static/media/address.png": "/static/media/address.60741c050446bc89f909.png",
+    "static/media/c++.gif": "/static/media/c++.de6f53bed33f5c9a1f5b.gif",
+    "static/media/UNIZULU.png": "/static/media/UNIZULU.4407f5ee31eb901105cd.png",
+    "index.html": "/index.html",
+    "main.a0b42754.css.map": "/static/css/main.a0b42754.css.map",
+    "main.443360e7.js.map": "/static/js/main.443360e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.f468b0f5.css",
-    "static/js/main.1776bea0.js"
+    "static/css/main.a0b42754.css",
+    "static/js/main.443360e7.js"
   ]
 }
