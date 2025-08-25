@@ -3,7 +3,10 @@ import { style_courasel } from "../contents";
 function Ereg() {
   return (
     <div className="paragraph" style={{style_courasel,width:"800px"}}>
-      <div className="paragraph" style={{ width: "100%" }}>E-reg details</div>
+      <div className="paragraph" style={{ width: "100%" }}><p>
+        an electronic registration system that creates an attendance register by scanning your 
+        personal QR code in a web cam, making attendance tracking seamless and efficient.
+        </p></div>
       <div className="paragraph" style={{ position: "relative", paddingTop: "56.25%", width: "100%" }}>
       <iframe
       allow="autoplay; fullscreen"

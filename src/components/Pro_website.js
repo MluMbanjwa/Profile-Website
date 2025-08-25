@@ -3,7 +3,7 @@ function Website() {
  
   return(
     <div className="paragraph" style={{style_courasel,width:"800px"}}>
-      <div className="paragraph" style={{ width: "100%" }}>E-reg details</div>
+      <div className="paragraph" style={{ width: "100%" }}>My Profile websites showcasing my skills, Education and Projects.</div>
       <div className="paragraph" style={{ position: "relative", paddingTop: "56.25%", width: "100%" }}>
       <iframe
       allow="autoplay; fullscreen"

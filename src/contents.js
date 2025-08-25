@@ -38,8 +38,8 @@ const universities={"Unisa":unisaLogo,"Unizulu":unizuluLogo};
   </p>
   <h1>I specialize in the following:</h1>
   </div>,
-  "C++":"Desktop and embedded Applications",
-  "Python":"Desktop and embedded Applications",
+  "C++":"OOP,Desktop and embedded Applications",
+  "Python":"OOP,Desktop and embedded Applications",
   "JavaScript":"interactivity of web applications",
   "react":"building web applications"
 };
