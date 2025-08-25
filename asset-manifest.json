@@ -1,14 +1,23 @@
 {
   "files": {
     "main.css": "/profile-website/static/css/main.f503ad60.css",
-    "main.js": "/profile-website/static/js/main.eaf01586.js",
+    "main.js": "/profile-website/static/js/main.18058c38.js",
     "static/media/2.jpg": "/profile-website/static/media/2.16d27e3fd2993d0e7b95.jpg",
+    "static/media/python.gif": "/profile-website/static/media/python.efa2642a0156a7295059.gif",
+    "static/media/react.gif": "/profile-website/static/media/react.117edd8f5021f7c86abc.gif",
+    "static/media/all.png": "/profile-website/static/media/all.a98d4f7f883a9e72c67e.png",
+    "static/media/github.png": "/profile-website/static/media/github.c7c9559467e69025eeee.png",
+    "static/media/js.gif": "/profile-website/static/media/js.cedf282f8ce5eed0e918.gif",
+    "static/media/unisa.png": "/profile-website/static/media/unisa.368dc5f814a7b53ecd6b.png",
+    "static/media/address.png": "/profile-website/static/media/address.60741c050446bc89f909.png",
+    "static/media/c++.gif": "/profile-website/static/media/c++.de6f53bed33f5c9a1f5b.gif",
+    "static/media/UNIZULU.png": "/profile-website/static/media/UNIZULU.4407f5ee31eb901105cd.png",
     "index.html": "/profile-website/index.html",
     "main.f503ad60.css.map": "/profile-website/static/css/main.f503ad60.css.map",
-    "main.eaf01586.js.map": "/profile-website/static/js/main.eaf01586.js.map"
+    "main.18058c38.js.map": "/profile-website/static/js/main.18058c38.js.map"
   },
   "entrypoints": [
     "static/css/main.f503ad60.css",
-    "static/js/main.eaf01586.js"
+    "static/js/main.18058c38.js"
   ]
 }
