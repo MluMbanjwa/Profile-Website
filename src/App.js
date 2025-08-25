@@ -16,7 +16,7 @@ function App() {
       <Route path="/Education" element={<div><Education/></div>}/>
       <Route path='/Contacts' element={<div><Contacts/></div>}/>
       <Route path='/Projects' element={<div><Projects/></div>}/>
-      <Route path="*" element={<div><h2 className='paragraph'>Page Not Found</h2></div>} />
+      <Route path="*" element={<div className='paragraph'><h2 className='paragraph'>Page Not Found</h2></div>} />
     </Routes>
     </BrowserRouter> 
 </div>
