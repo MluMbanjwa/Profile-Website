@@ -34,6 +34,7 @@ const universities={"Unisa":unisaLogo,"Unizulu":unizuluLogo};
            industry.</p>,
   intro: <div>
   <p>
+    I'm a final year student with 3 modules left to finish my Bsc in Computer Sciences and Mathematics.
   </p>
   <h1>I specialize in the following:</h1>
   </div>,
@@ -41,7 +42,8 @@ const universities={"Unisa":unisaLogo,"Unizulu":unizuluLogo};
   "Python":"Desktop and embedded Applications",
   "CSS":"stylling Deskotop and web applications",
   "HTML":"structure of web applications",
-  "javaScript":"interactivity of web applications",
+  "js":"interactivity of web applications",
+  "react":"building web applications"
 };
 
 
