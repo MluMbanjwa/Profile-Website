@@ -34,7 +34,6 @@ const universities={"Unisa":unisaLogo,"Unizulu":unizuluLogo};
            industry.</p>,
   intro: <div>
   <p>
-    a passionate and skilled programmer with a strong foundation in C++, Python, and JavaScript. 
   </p>
   <h1>I specialize in the following:</h1>
   </div>,
