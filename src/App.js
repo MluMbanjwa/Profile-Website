@@ -13,7 +13,7 @@ function App() {
     <div><Header/></div>
     <Routes>
       <Route path='/' element={<div><Specialist/></div>}/>
-      <Route path='/' element={<div><Specialist/></div>}/>
+      <Route path='https://MluMbanjwa.github.io/Profile-Website"' element={<div><Specialist/></div>}/>
       <Route path="/Education" element={<div><Education/></div>}/>
       <Route path='/Contacts' element={<div><Contacts/></div>}/>
       <Route path='/Projects' element={<div><Projects/></div>}/>
