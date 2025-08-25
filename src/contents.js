@@ -40,8 +40,6 @@ const universities={"Unisa":unisaLogo,"Unizulu":unizuluLogo};
   </div>,
   "C++":"Desktop and embedded Applications",
   "Python":"Desktop and embedded Applications",
-  "CSS":"stylling Deskotop and web applications",
-  "HTML":"structure of web applications",
   "JavaScript":"interactivity of web applications",
   "react":"building web applications"
 };
