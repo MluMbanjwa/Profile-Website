@@ -1,8 +1,8 @@
 var courseName={"Unisa":"BSC:\nCOMPUTER SCIENCES AND MATHEMATICS",
   "Unizulu":`BED:\nMATHEMATICS,SCIENCES AND TECHNOLOGY`};
 var universities={
-    "Unisa":"./Assets/pictures/Education/unisa.png",
-    "Unizulu":"./Assets/pictures/Education/UNIZULU.png"
+    "Unisa":process.env.PUBLIC_URL +"/Assets/pictures/Education/unisa.png",
+    "Unizulu":process.env.PUBLIC_URL +"/Assets/pictures/Education/UNIZULU.png"  
 };
  var universityCompletion={
     "Unisa":"2020-2025",
