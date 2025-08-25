@@ -1,0 +1,43 @@
+$bgColor1:rgb(47, 93, 142);
+$bgColor2:rgb(112, 115, 124);
+$bgColor3:rgb(255, 255, 255);
+
+$fontColor1:rgb(8, 2, 2);
+$fontColor2:rgb(15, 49, 151);
+$fontColor3:rgb(174, 6, 6);
+
+$decoColor1:transparent;
+$decoColor2:rgb(159, 31, 31);
+$decoColor3:gray;
+@mixin button{
+    display: inline-block;
+    box-shadow:  1px 1px 10px $bgColor3;
+    background: linear-gradient(to bottom right, white, rgb(115, 92, 216));
+    
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 0px;
+    font-weight: bold;
+    color: $fontColor1;
+    width: 60px;
+    height: auto;
+    border-radius: 30%;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        background: linear-gradient(to bottom right,$decoColor1,$decoColor3);
+        //box-shadow:inset  20px 20px 20px $bgColor3;
+        color: white;
+    }
+}
+
+@mixin bubble{
+    box-shadow:  50px 0px 70px rgb(13, 18, 110);
+    color: $fontColor1;   
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to bottom right, white, rgb(115, 92, 216));
+    opacity: 2;
+      
+}
