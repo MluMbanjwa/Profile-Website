@@ -1,5 +1,5 @@
 html {
-  background-image: url("../../public/Assets/pictures/background/2.jpg"); /* remove /public */
+  background-image: url("../Assets/pictures/background/2.jpg");
   background-size: cover;
 }
 
@@ -10,7 +10,7 @@ html {
   padding: 0;
   position: relative;
   z-index: 0;
-  background-image: url("../../public/Assets/pictures/background/2.jpg"); /* remove /public */
+  background-image: url("../Assets/pictures/background/2.jpg"); 
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
@@ -159,7 +159,8 @@ html {
   width: 100%;
   height: auto;
   border-radius: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .contact-item img:hover {
   background: linear-gradient(to bottom right, transparent, gray);

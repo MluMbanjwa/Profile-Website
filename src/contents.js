@@ -1,9 +1,21 @@
+import unizuluLogo from "./Assets/pictures/Education/UNIZULU.png";
+import unisaLogo from "./Assets/pictures/Education/unisa.png";
+import ReactLogo from "./Assets/pictures/skills/react.gif";
+import cppLogo from "./Assets/pictures/skills/c++.gif";
+import pythonLogo from "./Assets/pictures/skills/python.gif";
+import jsLogo from "./Assets/pictures/skills/js.gif";
+import gitHubLogo from "./Assets/pictures/contact/github.png";
+import linkedInLogo from "./Assets/pictures/contact/linkedin.png";
+import cellLogo from"./Assets/pictures/contact/phone.png";
+import emailLogo from "./Assets/pictures/contact/email.png";
+import locationLogo from "./Assets/pictures/contact/address.png";
+
 var courseName={"Unisa":"BSC:\nCOMPUTER SCIENCES AND MATHEMATICS",
   "Unizulu":`BED:\nMATHEMATICS,SCIENCES AND TECHNOLOGY`};
-var universities={
-    "Unisa":process.env.PUBLIC_URL +"/Assets/pictures/Education/unisa.png",
-    "Unizulu":process.env.PUBLIC_URL +"/Assets/pictures/Education/UNIZULU.png"  
-};
+
+
+const universities={"Unisa":unisaLogo,"Unizulu":unizuluLogo};
+
  var universityCompletion={
     "Unisa":"2020-2025",
     "Unizulu":"2014-2017"
@@ -32,15 +44,9 @@ var universities={
   "HTML":"structure of web applications",
   "javaScript":"interactivity of web applications",
 };
-var langueges={
-  "react":"./Assets/pictures/skills/react.gif",
-  "C++":"./Assets/pictures/skills/c++.gif",
-    "Python":"./Assets/pictures/skills/python.gif",
-    //"CSS":"./Assets/pictures/skills/css.png",
-    //"HTML":"./Assets/pictures/skills/html.png",
-    "javaScript":"./Assets/pictures/skills/js.gif"
-    
-  };
+
+
+const langueges={"react":ReactLogo,"C++":cppLogo,"Python":pythonLogo,"JavaScript":jsLogo};
 
 var projects={
   "p1":["pic","p1 Contents"],
@@ -65,15 +71,15 @@ var style_courasel={display: 'flex',flexDirection: 'column',
         alignItems: 'center',
         width: '100%',
         height: '100%',gap: '10px'};
-var contacts ={
-  "GitHub":"/Assets/pictures/contact/github.png",
-  "LinkedIn":"/Assets/pictures/contact/linkedin.png",
-  "0747411183":"/Assets/pictures/contact/phone.png",
-  "mlumbanjwacpp\n@gmail.com":"/Assets/pictures/contact/email.png",
-  "Gauteng & KZN":"/Assets/pictures/contact/address.png",
-};
+const contacts={
+    "GitHub":gitHubLogo,
+    "LinkedIn":linkedInLogo,
+    "0747411183":cellLogo,
+    "mlumbanjwacpp\n@gmail.com":emailLogo,
+    "Gauteng & KZN":locationLogo,
+}
 var background={
-  "1":"url(/Assets/pictures/background/1.jpg)",
-  "2":"url(/Assets/pictures/background/2.jpg)"
+  "1":"url(./Assets/pictures/background/1.jpg)",
+  "2":"url(./Assets/pictures/background/2.jpg)"
 }
 export {courseName,universities,universityCompletion,paragraphs,langueges,contactlinks,contacts,background,style_header,projects,style_courasel}

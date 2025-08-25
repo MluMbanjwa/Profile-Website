@@ -1,6 +1,7 @@
 import {paragraphs, langueges, style_header, style_courasel} from '../contents.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  Carousel  from 'react-bootstrap/Carousel';
+import all from '../Assets/pictures/skills/all.png';
 function Courasel(){
     const keys=Object.keys(langueges);
     return (
@@ -25,7 +26,7 @@ function Specialist(){
         </div>
         <div className='paragraph'>
             {paragraphs['intro']}
-            <img width="30%" height="auto" src="/Assets/Pictures/Skills/all.png" alt="skills" />
+            <img width="30%" height="auto" src={all} alt="skills" />
         </div>
         <div style={{width:'400px', height:'600px', margin:'10px auto'}}>
             <Courasel />
