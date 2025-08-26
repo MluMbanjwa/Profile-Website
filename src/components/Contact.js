@@ -1,5 +1,6 @@
 import { contactlinks,contacts, style_header } from "../contents";
 import { Link } from "react-router-dom";
+import Header from "./Header";
 function Contacts(){
     return(
     <div className="contents ">

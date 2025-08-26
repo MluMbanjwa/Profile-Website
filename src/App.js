@@ -7,19 +7,18 @@ import {BrowserRouter,Route, Routes} from 'react-router-dom'
 import './css/style.css'
 
 function App() {
-  return (
-    <div className="page">
+  return ( 
     <BrowserRouter>
-    <div><Header/></div>
-    <Routes>
-      <Route path='/' element={<div><Specialist/></div>}/>
-      <Route path="/Education" element={<div><Education/></div>}/>
-      <Route path='/Contacts' element={<div><Contacts/></div>}/>
-      <Route path='/Projects' element={<div><Projects/></div>}/>
-      <Route path="*" element={<div><Specialist/></div>} />
-    </Routes>
-    </BrowserRouter> 
-</div>
+    <Header />
+        <Routes >
+          <Route  path='/' element={<Specialist />} />
+          <Route path='/Education' element={<Education />} />
+          <Route path='/Contacts' element={<Contacts />} />
+          <Route path='/Projects' element={<Projects />} />
+          <Route path='*' element={<Specialist />} />
+        </Routes>
+    </BrowserRouter>
+  
   );
 }
 

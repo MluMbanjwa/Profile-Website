@@ -1,7 +1,8 @@
 import { courseName,universities,universityCompletion,style_header } from "../contents";
+import Header from "./Header";
 function Education(){
     return(
-    <div id='education' className="contents">
+    <div  className="contents">
         <h1 className="paragraph" style={style_header}>Education</h1>
             {Object.keys(courseName).map((uni, index) => (
                 <div key={index} className="paragraph">

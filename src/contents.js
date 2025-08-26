@@ -63,9 +63,8 @@ var contactlinks = {
 };
 
 var style_header={
-  height:'50px', 
-  fontSize:'40px', 
-  width:'70%'
+  height:'auto', 
+  fontSize:'30px', 
 };
 var style_courasel={display: 'flex',flexDirection: 'column',
         justifyContent: 'center',

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 function Header(){
     return(
-    <div id="header" className="links">
+    <div id="header" className="link">
         <Link className="link" to={'/'}>Home</Link>
         <Link className="link" to={'/Education'}>Education</Link>
         <Link className="link" to={'/Projects'}>Projects</Link>

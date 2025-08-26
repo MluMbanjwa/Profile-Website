@@ -10,7 +10,9 @@ $decoColor1:transparent;
 $decoColor2:rgb(159, 31, 31);
 $decoColor3:gray;
 @mixin button{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
     box-shadow:  1px 1px 10px $bgColor3;
     background: linear-gradient(to bottom right, white, rgb(115, 92, 216));
     
@@ -39,5 +41,4 @@ $decoColor3:gray;
     font-family: 'Courier New', Courier, monospace;
     background: linear-gradient(to bottom right, white, rgb(115, 92, 216));
     opacity: 2;
-      
 }
