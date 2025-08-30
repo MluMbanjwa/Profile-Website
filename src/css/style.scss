@@ -9,12 +9,13 @@ html{
     width: 100%;
     height: auto;
     justify-content: center;
-    margin: 0;
-    padding: 5px;
+    margin: 0 auto;
+    padding: 1.5rem;
  background-image: url('../Assets/pictures/background/2.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  gap:3px;
   flex-wrap: wrap;
 }
 
@@ -31,13 +32,15 @@ html{
     height: auto;
 }
 .contents{
-    width: 80%;
-    height: 100vh;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
+    padding:5px;
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 1px;
 
 
@@ -48,8 +51,9 @@ html{
     align-items: center;
     justify-content: center;
     height: 10vh;
-    width: 100%;
-    gap: 5px;   
+    width: 400px;
+    gap: 0px;   
+    flex-wrap: wrap;
     margin: 0 auto;
     .link{
         @include button;
@@ -63,7 +67,9 @@ html{
     margin: auto;
     border-radius: 10%;
     justify-content: center;
-    width: 80%;
+    padding: 0.3rem;
+    width: 400px;
+    flex-wrap: wrap;
     text-wrap: wrap;
     background: linear-gradient(to bottom right,$decoColor1,$decoColor3);
         box-shadow:inset  20px 20px 50px black;
@@ -96,28 +102,37 @@ html{
 }
 .contact{
     width: 100%;
-    height: 300px;
+    height: auto;
     display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 1.5rem;
     justify-content: center;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
-    
+    background-color: transparent;
 }
 .contact-item{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 100px;
+    align-items: center;   
+    flex-wrap: wrap;
     height: auto;
+    justify-content: space-between;
     img{
         
-        @include button;
         width: 100%;
         height: auto;
+        margin: 2px;
         border-radius: 100%;
-      //  box-shadow: inset 0 0 10px $bgColor3;
+        
+       box-shadow: inset 0 0 10px $bgColor3;
         object-fit: cover;
     }
+}
+.contact-item:hover img{
+    box-shadow:  0 0 10px $bgColor1;
+    background-color: white;
 }

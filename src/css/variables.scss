@@ -15,13 +15,11 @@ $decoColor3:gray;
     flex-wrap:nowrap;
     box-shadow:  1px 1px 10px $bgColor3;
     background: linear-gradient(to bottom right, white, rgb(115, 92, 216));
-    
     padding: 5px 10px;
     text-decoration: none;
-    margin: 0px;
+    margin: 0 auto;
     font-weight: bold;
     color: $fontColor1;
-    width: 60px;
     height: auto;
     border-radius: 30%;
     transition: all 0.3s ease-in-out;
