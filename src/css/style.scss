@@ -1,20 +1,19 @@
 @import 'variables';
-html{
-
-  background-image: url('../Assets/pictures/background/2.jpg'); 
-  background-size: cover;
+html{box-shadow:  10px 40px 10px $bgColor1;
+ background-color: black;
 }
 .page{
    display: flex;
+   flex-direction: column;
     width: 100%;
     height: auto;
     justify-content: center;
-    margin: 0 auto;
+    margin: 0 0;
+    
     padding: 1.5rem;
- background-image: url('../Assets/pictures/background/2.jpg'); 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+box-shadow:  10px 40px 10px $bgColor1;
+ background-color: black;
+ 
   gap:3px;
   flex-wrap: wrap;
 }
@@ -28,8 +27,16 @@ html{
     
 }
 #education{
-   width: 50%;
+    width: 100%;
     height: auto;
+    margin: 0 auto;
+    padding:5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1px;
 }
 .contents{
     width: 100%;
@@ -68,7 +75,7 @@ html{
     border-radius: 10%;
     justify-content: center;
     padding: 0.3rem;
-    width: 400px;
+   
     flex-wrap: wrap;
     text-wrap: wrap;
     background: linear-gradient(to bottom right,$decoColor1,$decoColor3);

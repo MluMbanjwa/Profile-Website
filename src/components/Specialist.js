@@ -6,7 +6,7 @@ import Header from './Header'
 function Courasel(){
     const keys=Object.keys(langueges);
     return (
-        <Carousel style={{width: '100%', height: '100%'}} wrap={true} interval={4000}>  
+        <Carousel style={{width: '100%', height: 'auto'}} wrap={true} interval={4000}>  
             {keys.map((key, index) => (
                 <Carousel.Item key={index}>
                 <div style={style_courasel}>
@@ -30,7 +30,7 @@ function Specialist(){
             {paragraphs['intro']}
             <img width="auto" height="80px" src={all} alt="skills" />
         </div>
-        <div style={{width:'400px', height:'600px', margin:'10px auto'}}>
+        <div style={{width:'400px', height:'500px', margin:'10px auto', padding:"10px"}}>
             <Courasel />
         </div>
     </div>)
