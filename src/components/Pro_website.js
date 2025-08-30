@@ -13,7 +13,7 @@ function Website() {
           allowFullScreen
         src="https://drive.google.com/file/d/1-thWq7Gq9xidw-bNhOgKeWZULLXd1eey/preview"
         style={{    
-             width: "70%",
+             width: "90%",
             height: "15em",
             border: "none",
             borderRadius: "12px"

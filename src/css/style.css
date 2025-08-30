@@ -1,5 +1,4 @@
 html {
-  box-shadow: 10px 40px 10px rgb(47, 93, 142);
   background-color: black;
 }
 
@@ -11,7 +10,6 @@ html {
   justify-content: center;
   margin: 0 0;
   padding: 1.5rem;
-  box-shadow: 10px 40px 10px rgb(47, 93, 142);
   background-color: black;
   gap: 3px;
   flex-wrap: wrap;

@@ -17,9 +17,8 @@ function Courasel(){
 
 function Projects(){
     return(
-    <div id='projects' className="contents" style={{width: '70%', borderRadius: '10px', padding: '10px'
+    <div id='projects' className="contents" style={{width: '100%', borderRadius: '10px', padding: '10px'
     ,height: 'auto'}}>
-       
          <Courasel/>
     </div>)
 }
